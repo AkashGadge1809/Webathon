@@ -175,8 +175,8 @@ footer{
 .about{
 
     position: absolute;
-    top: 232px;
-    left: 850px;
+    top: 208px;
+    left: 833px;
 
 }
 .about h3{
@@ -185,9 +185,9 @@ footer{
     word-spacing: 5px;
 }
 .p1{
-    
+    padding: 10px;
+    font-size: 1.1rem;
 }
 .p2{
-    
-    
+    padding: 10px;
 }
