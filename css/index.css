@@ -19,6 +19,7 @@ body::-webkit-scrollbar{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    opacity:0.7;
 }
 .navbar{
    
@@ -174,8 +175,8 @@ footer{
 .about{
 
     position: absolute;
-    top: 302px;
-    left: 880px;
+    top: 232px;
+    left: 850px;
 
 }
 .about h3{
@@ -186,9 +187,14 @@ footer{
 .p1{
     font-size: 1.3rem;
     position: relative;
-    top: 30px;
+    top: 10px;
+    left: 20px;
 }
 .p2{
     position: relative;
-    top: 50px;
+    top: 30px;
+    left: 20px;
+    line-height: 20px;
+    text-indent: 40px;
+    
 }
