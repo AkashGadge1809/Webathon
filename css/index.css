@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
     
 }
 .aboutBox{
-    background: url("../Images/About_Image.jpg");
+    background: url("../Images/About.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -175,38 +175,5 @@ footer{
     text-decoration: none;
     color:#bcbdc0;
 }
-.about{
 
-    position: absolute;
-    top: 208px;
-    left: 833px;
 
-}
-.about h3{
-    font-size: 40px;
-    letter-spacing: 10px;
-    word-spacing: 5px;
-}
-
-.p1{
-    
-    padding: 10px;
-    font-size: 1.2rem;
-}
-.p2{
-    font-weight: bold;
-    padding: 5px;
-}
-.pp1{
-    position: absolute;
-    left: 26px;
-    top: 120px;
-    font-weight: bold;
-}
-
-.pp2{
-    font-weight: bold;
-    position: absolute;
-    top: 144px;
-    left: 57px;
-}
