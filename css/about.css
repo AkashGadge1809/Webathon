@@ -94,6 +94,7 @@ body::-webkit-scrollbar{
     margin:40px; ;
     padding-top: 20px;
     /* border: solid; */
+    background: linear-gradient(to right bottom,#76cc82, #e4eae5 );
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
@@ -131,6 +132,7 @@ body::-webkit-scrollbar{
     margin:40px; ;
     padding-top: 20px;
     /* border: solid; */
+    background: linear-gradient(to right bottom,#76cc82, #e4eae5);
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
@@ -161,6 +163,7 @@ body::-webkit-scrollbar{
     margin:40px; ;
     padding-top: 20px;
     /* border: solid; */
+    background: linear-gradient(to right bottom,#76cc82, #e4eae5);
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
@@ -184,6 +187,7 @@ body::-webkit-scrollbar{
     margin:40px; ;
     padding-top: 20px;
     /* border: solid; */
+    background: linear-gradient(to right bottom,#76cc82, #e4eae5 );
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
