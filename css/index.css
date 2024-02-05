@@ -4,6 +4,7 @@
     
 }
 body{
+    background: linear-gradient(to right bottom,#76cc82, #e4eae5 );
     user-select: none;
 }
 body::-webkit-scrollbar{
@@ -114,7 +115,7 @@ body::-webkit-scrollbar{
 }
 .card{
     padding: 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
     border-radius: 20%;
     flex-direction: column;
     padding-left: 20px;
@@ -179,6 +180,7 @@ footer{
     color:#bcbdc0;
 }
 marquee{
+   
     position: absolute; 
     top: 70px;
 

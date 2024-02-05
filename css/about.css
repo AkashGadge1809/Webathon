@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    background: radial-gradient(circle, #d7e1e4, #6ecd8f);
     user-select: none;
 }
 body::-webkit-scrollbar{
