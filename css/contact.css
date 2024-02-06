@@ -1,7 +1,140 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background: linear-gradient(to right bottom,#76cc82, #e4eae5 );
+
+body::-webkit-scrollbar {
+    display: none;
+
+}
+
+.Contact {}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background: radial-gradient(circle, #c1c7ca, #bc9b9b);
+    width: 100%;
+    z-index: 1;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li {
+
+    padding: 20px;
+    font-size: 1.3rem;
+
+
+}
+
+.navbar img {
+    position: absolute;
+    left: -41px;
+    top: -23px;
+    width: 214px;
+    height: 110px;
+
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+html,
+body {
+    /* background: linear-gradient(to right bottom,#a3e8ab, #e4eae5 ); */
+    background: url('../Images/contactUsBack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.img1 {
+    position: absolute;
+    right: 84px;
+    top: 116px;
+    width: 629px;
+    height: 567px;
+    z-index: 0;
+}
+
+.img2 {
+    position: absolute;
+    width: 259px;
+    top: 128px;
+    right: 508px;
+    opacity: 0.9;
+}
+
+.ContactUs {
+
+    position: absolute;
+    top: 203px;
+    left: 194px;
+    width: 300px;
+    margin: 0 auto;
+    background: white;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    /* padding: 10px; */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+input[type="text"],input[type="email"],textarea {
+    border: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 50px;
+    background: transparent;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-left: 110px;
+    background-color: #ba8d8d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ac6b6b;
 }
