@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: linear-gradient(to right bottom,#76cc82, #e4eae5 );
     user-select: none;
@@ -55,7 +58,7 @@ body::-webkit-scrollbar{
     top: -23px;
     width: 214px;
     height: 110px; 
-
+   
 }  
 .navbar ul li a{
     color: black;
@@ -135,8 +138,10 @@ body::-webkit-scrollbar{
     width: 200px;
     height: 150px;
     border-radius: 20%;
+    
 
 }
+
 .card button{
     margin: 20px;
     padding: 10px;
@@ -175,7 +180,7 @@ footer{
     
     position: absolute;
     left: 570px;
-    top: 1990px
+    top: 1980px
 }
 .News{
     padding-left: 190px;
