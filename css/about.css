@@ -20,7 +20,9 @@ body::-webkit-scrollbar{
    display: flex;
     justify-content: flex-end;
     position: fixed;
-    background: radial-gradient(circle, #84c0d8, #5cd586);
+    /* background: radial-gradient(circle, #84c0d8, #5cd586); */
+    background: transparent;
+    backdrop-filter: blur(20px);
     width: 100%;
     z-index: 1;
         
