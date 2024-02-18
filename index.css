@@ -21,13 +21,13 @@ body::-webkit-scrollbar{
     height: 100vh;
     
 }
-.aboutBox{
+/* .aboutBox{
     background: url("../Images/About.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     opacity:0.6;
-}
+} */
 .navbar{
    margin-top: -19px;
     display: flex;
