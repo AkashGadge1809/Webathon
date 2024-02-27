@@ -3,9 +3,9 @@
     padding: 0;
     
 }
-/* html{
+ html{
     scroll-behavior: smooth;
-} */
+}
 body{
     background: linear-gradient(to right bottom,#76cc82, #e4eae5 );
     user-select: none;
@@ -126,6 +126,10 @@ body::-webkit-scrollbar{
     align-items: center;
     padding: 40px;
 }
+.card p:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1);
+}
 .card{
     padding: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
@@ -134,13 +138,20 @@ body::-webkit-scrollbar{
     padding-left: 20px;
     text-align: center;
 }
+.card:hover{
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1);
+}
  .card img{
     
     width: 200px;
     height: 150px;
     border-radius: 20%;
     
-
+}
+.card img:hover{
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
 }
 
 .card button{
@@ -148,6 +159,10 @@ body::-webkit-scrollbar{
     padding: 10px;
     background: transparent;
     border-radius: 10px;
+}
+.card button:hover{
+    transition: 0.4s ease-out;
+    transform: scale(1.1);
 }
 footer{
     width: 1516px;
